@@ -1,0 +1,13 @@
+persistence: "projetBout"
+
+repository:
+    client: newstart.repository.repositoryJpa.ClientRepositoryJpa
+    user: newstart.repository.repositoryJpa.UserRepositoryJpa
+
+service:
+    client: newstart.service.ClientService
+    user: newstart.service.UserService
+
+view:
+    client: newstart.view.ClientView
+    user: newstart.view.UserView
